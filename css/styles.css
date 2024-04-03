@@ -1,0 +1,210 @@
+/* Style rules for body */
+body {
+    color: #24265d;
+}
+
+/* Style rules for skip to content */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+
+.skip:focus {
+    color: #24265d;
+    background-color: #fff;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+/* Style rules for navigation */
+.navbar-nav a {
+    color: #24265d;
+}
+
+.navbar-brand {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* Style rules for text */
+h1 {
+    font-family: "Original Surfer", sans-serif;
+    color: #f5bc83;
+}
+
+h2 {
+    font-family: "Original Surfer", sans-serif;   
+}
+
+.display-5 {
+    font-family: "Original Surfer", sans-serif;
+    color: #24265d;
+    text-align: center;
+}
+
+.accordion-button {
+    font-family: 'Roboto Slab', serif;;
+}
+
+.navy-text {
+    color: #24265d;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+
+/* Style rules for container backgrounds */
+.orange-background {
+    background-color: #fad8b6;
+}
+
+
+.light_blue_backround {
+    background-color: #a2d1ee; 
+    width: 100%;
+}
+
+.lighter_blue_backround {
+    background-color:#d2e7f4;
+}
+
+.navy-background {
+    background-color: #24265d;
+}
+
+.orange-box {
+    background-color: #fef0e2;
+    padding: 2% 0;
+}
+
+.blue_border {
+    padding: 2%;
+    background-color: #24265d;
+}
+
+.white_box {
+    background-color: #fff;
+}
+
+/* Style rules for map */
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Style rules for Bootstrap grid rows */
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.center-feature img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+/* Style rules for buttons */
+.btn:hover, .btn:focus {
+    background-color: blue;
+    color: #fff;
+}
+
+#white-button {
+    background-color: #fff;
+    color: #24265d;
+}
+
+#white-button:hover, #white-button:focus {
+    background-color: blue;
+    color: #fff;
+}
+
+/* Style rules for footer */
+footer {
+    color:#24265d;
+    background-color: #c2e3f8; 
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer img {
+    padding-top: 2%;
+    width: 30px;
+    height: auto;
+}
+
+
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #24265d;
+}
+
+footer p a {
+    color: #24265d;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 2%;
+    width: 30px;
+    height: auto;
+}
+
+
+
+.weather-box p {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Style rules for table */
+th, tr {
+    padding-right: 0.5%;
+}
+
+table {
+    text-align: center;
+}
+
+/* Style rules for links */
+.navy-link p {
+    padding: 0;
+    margin: 0;
+}
+
+.navy-link a {
+    color: #24265d;
+    text-decoration: none;
+}
+
+.navy-link a:hover {
+    text-decoration: underline;
+}
+
+.white-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.white-link a:hover {
+    text-decoration: underline;
+}
+
+
